@@ -306,7 +306,7 @@ def generate_qmls_for_folder_ca(
             print(f"❌ Failed for {raster_path.name}: {e}")
 
 if __name__ == "__main__":
-    folder = r"D:\ml_datasets\Chukotka\ASTER_L3\0_component_blended_coged"
+    folder = r"D:\ml_datasets\Chukotka\Landsat_raw\SAM_indicies_landsat89_coged"
     generate_qmls_for_folder_ca(
         folder,
         sampling_step=10,
